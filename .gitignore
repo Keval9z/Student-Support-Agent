@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+data/students_backup.json
+data/demo_users.json
+data/audit_log.json
+data/memory.json
+data/runtime_state.json
+logs/traces.jsonl
+.idea/
+.vscode/
