@@ -1,0 +1,29 @@
+{
+  "STU1001": {
+    "name": "Aarav Shah",
+    "program": "PGDM Artificial Intelligence",
+    "fee_status": "Partially Paid",
+    "total_fee": 180000,
+    "paid_amount": 120000,
+    "balance": 60000,
+    "scholarship_status": "Under Review"
+  },
+  "STU1002": {
+    "name": "Diya Patel",
+    "program": "PGDM - Artificial Intelligence",
+    "fee_status": "Paid",
+    "total_fee": 180000,
+    "paid_amount": 180000,
+    "balance": 0,
+    "scholarship_status": "Approved"
+  },
+  "STU1003": {
+    "name": "Kabir Mehta",
+    "program": "PGDM - Business Analytics",
+    "fee_status": "Pending",
+    "total_fee": 180000,
+    "paid_amount": 90000,
+    "balance": 90000,
+    "scholarship_status": "Not Applied"
+  }
+}

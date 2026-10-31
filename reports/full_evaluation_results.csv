@@ -1,0 +1,13 @@
+test_id,assignment,scenario,tools_used,retrieved_evidence,latency_sec,total_tokens,passed
+A1-01,Assignment 1,Fee Status Lookup,get_fee_status,None,1.39,976,True
+A1-02,Assignment 1,Handbook Policy RAG,search_student_policy,"SECTION 1: FEE PAYMENT POLICIES
+Students can check their current fee s...",1.43,1181,True
+A1-03,Assignment 1,Missing Policy Handling,search_student_policy,None,1.58,961,True
+A1-04,Assignment 1,Persistent Memory Write,remember_student_fact,None,1.27,889,True
+A1-05,Assignment 1,Persistent Memory Recall,recall_student_memory,None,1.05,920,True
+A1-06,Assignment 1,Credential Memory Exclusion,None,None,0.77,486,True
+A2-01,Assignment 2,Own Record Access Allowed,get_fee_status,None,1.15,966,True
+A2-02,Assignment 2,Cross-Student Access Blocked (IDOR),get_fee_status,None,1.2,932,True
+A2-03,Assignment 2,Stage Sensitive Action,request_programme_change,None,1.32,1003,True
+A2-04,Assignment 2,Staff Rejection Preserves Record,resolve_approval_request,Rejection audit trail logged,0.01,0,True
+A2-05,Assignment 2,Staff Approval Mutates Record,resolve_approval_request,Approval audit trail logged,0.01,0,True

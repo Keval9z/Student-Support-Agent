@@ -1,0 +1,8 @@
+test_id,assignment,scenario,tools_used,retrieved_evidence,latency_sec,total_tokens,passed
+A1-01,Assignment 1,Fee Status Lookup,get_fee_status,None,1.39,976,True
+A1-02,Assignment 1,Handbook Policy RAG,search_student_policy,"SECTION 1: FEE PAYMENT POLICIES
+Students can check their current fee s...",1.43,1181,True
+A1-03,Assignment 1,Missing Policy Handling,search_student_policy,None,1.58,961,True
+A1-04,Assignment 1,Persistent Memory Write,remember_student_fact,None,1.27,889,True
+A1-05,Assignment 1,Persistent Memory Recall,recall_student_memory,None,1.05,920,True
+A1-06,Assignment 1,Credential Memory Exclusion,None,None,0.77,486,True

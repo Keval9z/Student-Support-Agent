@@ -1,0 +1,9 @@
+measure,assignment_1_baseline,assignment_2_secured,key_observation
+Task Accuracy / Success,100% (6/6),100% (5/5),Core support functionality maintained under security framework
+Privacy Tests (Cross-Student Access),Not Enforced (Permissive lookup),100% Blocked (Authorization Gate),IDOR vulnerabilities eliminated via session identity validation
+Unsafe-Action Tests (Program Changes),N/A (No approval gate),100% Staged (PENDING State),Direct DB write prohibited; human staff approval required
+Staff Approval Lifecycle (Reject/Approve),N/A,100% Verified (Reject preserves / Approve updates),State transitions strictly enforced by ADMIN role authorization
+Credential Filtering (OTP/Passwords),Blocked from long-term memory,Blocked from long-term memory,Regex boundaries prevent secrets from persisting to disk
+Measured Average Latency,1.25 s,1.22 s,Security and audit overhead: +-0.03 s
+Measured Average Token Usage,902 tokens,967 tokens,Prompt context overhead: +65 tokens for session instructions
+Trace / Audit Evidence,Traces in logs/traces.jsonl,traces.jsonl + audit_log.json,Dual logging: execution traces plus immutable compliance audit trail
